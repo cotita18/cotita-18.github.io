@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #pink;
+	background-image: url(HTML/basicos%20fondo.jpg);
+	background-attachment:fixed;
+	margin: 0;
+	padding: 0;
+	color: #purple;
+}
+
+/* ~~ Selectores de elemento/etiqueta ~~ */
+ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es recomendable no añadir relleno ni márgenes en las listas. Para lograr coherencia, puede especificar las cantidades deseadas aquí o en los elementos de lista (LI, DT, DD) que contienen. Recuerde que lo que haga aquí se aplicará en cascada en la lista .nav, a no ser que escriba un selector más específico. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen de la etiqueta div contenedora. El margen inferior restante lo mantendrá separado de los elementos de que le sigan. */
+	padding-right: 15px;
+	padding-left: 15px; /* la adición de relleno a los lados del elemento dentro de las divs, en lugar de en las divs propiamente dichas, elimina todas las matemáticas de modelo de cuadro. Una div anidada con relleno lateral también puede usarse como método alternativo. */
+}
+a img { /* este selector elimina el borde azul predeterminado que se muestra en algunos navegadores alrededor de una imagen cuando está rodeada por un vínculo */
+	border: none;
+}
+
+/* ~~ La aplicación de estilo a los vínculos del sitio debe permanecer en este orden (incluido el grupo de selectores que crea el efecto hover -paso por encima-). ~~ */
+a:link {
+	color:#green;
+	text-decoration: underline; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
+}
+a:visited {
+	color: #red;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
+	text-decoration: none;
+}
+
+/* ~~ este contenedor rodea a todas las demás divs, lo que les asigna su anchura basada en porcentaje ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* puede que sea conveniente una anchura máxima (max-width) para evitar que este diseño sea demasiado ancho en un monitor grande. Esto mantiene una longitud de línea más legible. IE6 no respeta esta declaración. */
+	min-width: 780px;/* puede que sea conveniente una anchura mínima (min-width) para evitar que este diseño sea demasiado estrecho. Esto permite que la longitud de línea sea más legible en las columnas laterales. IE6 no respeta esta declaración. */
+	background-color: #FFDCDC;
+	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño. No es necesario si establece la anchura de .container en el 100%. */
+}
+
+/* ~~no se asigna una anchura al encabezado. Se extenderá por toda la anchura del diseño. Contiene un marcador de posición de imagen que debe sustituirse por su propio logotipo vinculado~~ */
+.header {
+	background-color: #pink;
+}
+
+/* ~~ Esta es la información de diseño. ~~ 
+
+1) El relleno sólo se sitúa en la parte superior y/o inferior de la div. Los elementos situados dentro de esta div tienen relleno a los lados. Esto le ahorra las "matemáticas de modelo de cuadro". Recuerde que si añade relleno o borde lateral a la div propiamente dicha, éste se añadirá a la anchura que defina para crear la anchura *total*. También puede optar por eliminar el relleno del elemento en la div y colocar una segunda div dentro de ésta sin anchura y el relleno necesario para el diseño deseado.
+
+*/
+.content {
+	padding: 10px 0;
+}
+
+/* ~~ Este selector agrupado da espacio a las listas del área de .content ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* este relleno reproduce en espejo el relleno derecho de la regla de encabezados y de párrafo incluida más arriba. El relleno se ha colocado en la parte inferior para que el espacio existente entre otros elementos de la lista y a la izquierda cree la sangría. Estos pueden ajustarse como se desee. */
+}
+
+/* ~~ El pie de página ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #purple;
+}
+
+/* ~~ clases float/clear varias ~~ */
+.fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* esta clase puede situarse en una <br /> o div vacía como elemento final tras la última div flotante (dentro de #container) si #footer se elimina o se saca fuera de #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="HTML/slogan.jpg" alt="Insertar logotipo aquí" name="Insert_logo" width="33%" height="193" id="Insert_logo" style="background-color: #8090AB; display:block;" /></a> 
+    <!-- end .header --></div>
+  <div class="content">
+    <i>
+    </a>  <dt><a href="pagina ropa 33333.htm#">PAGINA PRINCIPAL</a></dt> 
+     <font face="times new roman"><h1>Tips para combinar basicos</h1></i>
+    <p>Crear looks para el día a día no es tan complicado como parece un lunes a las 8 de la mañana cuando abres el armario y lo ves lleno de 'noséquéponermes'. Basta con tener claros unos cuantos trucos muy básicos que te ayudarán a elegir mejor la forma en las que puedes combinar la ropa que ya tienes.Aunque vestirse para la primavera puede ser lo único que tengas en mente en este momento, la realidad es otra. Si te encuentras luchando en contra la tristeza del invierno, por suerte, has llegado al lugar adecuado. 
+
+Es un hecho probado que una prenda colorida tiene poderes mágicos para levantarte el ánimo, ya sea un abrigo atrevido y bonito sobre un pantalón elegante o un maxivestido multicolor con la dosis justa de elegancia. 
+
+Para disfrutar los días que nos quedan de invierno, hemos diseñado siete conjuntos llenos de color que son tan alegres como elegantes, por no mencionar que son prendas de transición, en los colores que combinan mejor, y que llev</p>
+    <i><h2>¿CÓMO COMBINAR LOS COLORES EN LA ROPA?</h2></i>
+    <p>Coloca los colores más oscuros en la zona que desee estilizar y los más claros en la zona que necesite mayor volumen o luminosidad. </p>
+    <h3>El negro siempre es un acierto seguro</h3>
+    <p>Se ha utilizado un marcador de posición de imagen en el .header de este diseño, en el que lo más probable es que desee colocar un logotipo. Se recomienda quitar el marcador de posición y reemplazarlo por su propio logotipo vinculado.El negro es un acierto seguro. Llévalo en formato total look para conseguir un resultado sofisticado y una silueta esbelta. ómo Combinar la Ropa Negra para lograr Outfits súper Fashion #1 El negro el color de todas las temporadas #2 Los vestidos negros te harán impactar en cualquier sitio. Son perfectos para lucir elegante con tus outfits negros #3 Y unas faldas cortas negras te harán lucir mucho más sexy . </p>
+    <CENTER><img src="HTML/COLLAGE NEGRO222.jpg"width="500" height="400"  /> </CENTER>
+    
+    
+    <h3>Los colores neutros </h3>
+    <p>reinan en muchos outfits por su versatilidad para combinar. ¡Siempre son una buena opción!El beige, el gris claro, gris oscuro, azul grisáceo, negro, blanco… todos ellos se consideran colores neutrales o acromáticos. Lucir colores neutros no implica olvidarse de los estampados. Tus vestidos, zapatos o clutch pueden ser lisos pero también con elementos decorativos.Cómo combinar colores neutros puede ser una cuestión que suene un tanto contradictoria: ¿no se supone que la ventaja de estos tonos es que son fáciles de unir a otros y que, por tanto, no requieren demasiados quebraderos de cabeza? Sí, eso es cierto. Pero también lo es que “el color blanco no combina con todo”, tal y como afirmó Leatrice Eiseman, directora del Instituto Pantone, en su libro Cómo el color puede cambiar tu armario y tu vida. Y si una experta en color pone en entredicho una cualidad con calado en el imaginario colectivo, quizás sí que sea pertinente preguntarse cómo combinar colores neutros bien, muy bien, tanto con otros tonos como entre sí. Quizás este es un matiz más preciso y complejo que tenga respuesta en un manual de uso práctico, es decir, ese que viene directamente del street style (de Sídney)..</p>
+    
+    <CENTER> <img src="HTML/NEUTRO COLLAGE.jpeg"width="500" height="500"  /> </CENTER>
+    
+    <h3>Las reglas  entre colores están para romperlas</h3>
+    <p> por lo que te animamos a mezclar dos prendas de ropa que sean de la misma categoría, es decir, dos colores primarios o secundarios.Las reglas de la cromática en términos de estilismo son siempre algo complejas y combinar prendas coloridas entre sí no es tarea fácil. Por eso, venimos a contarte cómo combinar colores como una verdadera estilista para vestir siempre bien.Si quieres saber cómo crear looks de IMPACTO, entonces sigue las reglas para aprender a combinar los colores. Son los secretos mejor guardados de los estilistas profesionales, te cambiarán la vida.
+
+¿Alguna vez habías escuchado el concepto de colorimetría?, seguramente no, pero no te preocupes porque te explicamos qué es y su gran relevancia.
+
+Con la llegada de los días cálidos, nuestras ganas de vestir de forma más colorida salen a la luz, pero nos detenemos al no estar seguras de cómo combinarlas de forma armónica, y por eso en la mayoría de los casos cuando vamos de compras solemos ir a la segura y buscar ropa oscura (porque es muy fácil combinarla). Pero gracias a las reglas de la cromática esto cambiará de ahora en adelante </p>
+     <CENTER><img src="HTML/ROPA COLORIDA.jpeg"="500" height="500"  /></CENTER> 
+    
+    <h3>Prendas en oro y plateado</h3>
+    <p>
+Una combinación amada y odiada, pero si algo hemos aprendido es que las tendendencias no paran de sorprendernos: fucsia y verde menta - naranja y amarillo - verde oliva y morado… 
+Las nuevas colecciones de grandes marcas, no tienen miedo a mezclar colores y estilos para crear looks sorprendentes que nos dejan boca abierta al ver las pasarelasSiéntete libre de mezclar metales diferentes. Otra forma de mezclar y combinar joyas es jugando con su tamaño, ancho y textura. Usa brazaletes de diferentes anchos o collares de diferentes longitudes. También puedes colocarte anillos en los dedos..</p>
+   <CENTER> <img src="HTML/JOYERIAA.jpeg"width="500" height="500"  /></CENTER> 
+    
+    <h3>Utilizar el color blanco </h3>
+    <p>para cuando queremos sentirnos en calma, es una buenísima idea.Puedes combinar el blanco con tonos suaves o intensos para crear un ambiente relajado o uno vibrante. Para un look moderno, prueba con tonos fuertes como el rojo intenso, el amarillo brillante o el azul profundo. Para un toque de elegancia, combina el blanco con tonos pastel como el rosa, el lila o el verde menta.</p>
+     <CENTER><img src="HTML/BLANCOO COLLAGEE.jpg"width="500" height="500"  /> </CENTER>
+    
+    
+    
+    
+    
+    <!-- end .content --></div>
+  <div class="footer">
+    <p>ELABORADO POR ANGELINA COTA</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
